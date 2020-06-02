@@ -1,0 +1,635 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Template Name: TIDE
+Version:    1.0
+Descriptions:TIDE is a Personal Portfolio Template
+Author: Fahmid Ahmed Chowdhury
+
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[style.css contents]
+
+01.BASE STYLE
+02.GLOBAL STYLE
+03.HOME  STYLE
+04.ABOUT STYLE
+04.SERVICES STYLE
+07. PROJECT STYLE
+08. TESTIMONIAL STYLE
+09. CONTACT STYLE
+10. FOOTTER STYLE
+-------------------------------------------------------------------*/
+
+
+/*========================================0.1 BASE CSS================================================================*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important
+}
+
+
+/*========================================BASE CSS================================================================*/
+
+
+/*========================================02.GLOBAL CSS=============================================================*/
+
+#preloader {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: #fff;
+    z-index: 9999
+}
+
+.preloader_spinner {
+    background: url(../images/preloader_spinner.gif);
+    no-repeat scroll center center;
+    display: block;
+    height: 66px;
+    width: 66px;
+    position: absolute;
+    left: 52%;
+    top: 52%;
+    z-index: 9999999;
+    margin-left: -66px;
+    margin-top: -66px;
+}
+
+body.preloader_active {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 100%
+}
+
+.color {
+    color: #44B272
+}
+
+.page_area {
+    padding: 50px 0px 50px 0px;
+}
+
+.page_content p {
+    font-family: abel;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #272525;
+}
+
+.page_title h2 {
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    color: #272525;
+}
+
+
+/*========================================GLOBAL CSS================================================================*/
+
+
+/*========================================03.HOME CSS=============================================================*/
+
+.home_page_area {
+    position: relative;
+}
+
+.home_page_bg {
+    background: url(../images/home_page_area_bg.jpg);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo_menu_area {
+    padding: 30px 0px 10px 0px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.logo a h1 {
+    color: #fff;
+    font-family: oswald;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.menu ul {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px 40px 0px 0px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: abel;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.mobileMenu_icon {
+    display: none;
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.is-sticky .logo_menu_area {
+    background: #000 none repeat scroll 0% 0%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: absolute;
+    content: "";
+    z-index: -1px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    box-shadow: 0px 1px 3px 0px #000;
+}
+
+.sticky-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.is-sticky .logo_menu_area {
+    padding: 14px 0px 0px 0px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.is-sticky .logo a h1 {
+    font-size: 30px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.is-sticky .menu ul li a {
+    font-size: 14px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.is-sticky .menu li {
+    display: inline-block;
+    padding: 9px 40px 0px 0px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.home_page_content_area {
+    padding-top: 300px;
+    padding-bottom: 162px;
+}
+
+.homepage_content {}
+
+.homepage_content_text h2 {
+    font-family: oswald;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.homepage_content_text p {
+    font-family: abel;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.homepage_aro {
+    margin-top: 50px;
+}
+
+
+/*========================================HOME CSS=============================================================*/
+
+
+/*========================================04.ABOUT CSS=============================================================*/
+
+.about_content h2 {
+    font-family: abel;
+    font-weight: normal;
+    font-size: 25px;
+    color: #44B272;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.about_buttons {
+    margin-top: 20px;
+}
+
+.about_download {
+    background-color: #44B272;
+    font-family: oswald;
+    text-align: center;
+}
+
+.about_download h2 {
+    color: #fff;
+    font-family: oswald;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.about_download a {
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.about_download:hover {
+    background-color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.about_social {
+    margin-left: -44px;
+}
+
+.about_social ul {
+    list-style: none;
+}
+
+.about_social ul li {
+    display: inline-block;
+    background-color: #44B272;
+    margin: 0px 4px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.about_social ul li a img {
+    padding: 3px;
+}
+
+.about_social ul li:hover {
+    display: inline-block;
+    background-color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+/*========================================ABOUT CSS=============================================================*/
+
+
+/*========================================05.SERVICES CSS========================================================*/
+
+.services_area {
+    background-color: #f9f9f9
+}
+
+.single_service_area h2 {
+    font-family: abel;
+    font-weight: normal;
+    font-size: 25px;
+    color: #44B272;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.single_service_area h2:hover {
+    color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.sevice_icon i {
+    color: #44B272;
+    font-size: 60px;
+    margin-bottom: 15px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.sevice_icon i:hover {
+    color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+/*========================================SERVICES CSS=============================================================*/
+
+
+/*========================================06.PROTPHOLIO CSS=========================================================*/
+
+#portfolio {
+    margin: 1rem 0;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+
+.tile {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.scale-anm {
+    transform: scale(1);
+}
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+}
+
+.modal-content img {
+    margin: auto;
+}
+
+.folio-menu li {
+    color: #272525;
+    font-family: abel;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.folio-menu li:hover {
+    color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.folio-menu {
+    margin-bottom: 50px;
+}
+
+
+/*========================================PROTPHOLIO CSS=============================================================*/
+
+
+/*========================================07.TESTIMONIAL CSS=============================================================*/
+
+.testimonial_area {
+    background-color: #f9f9f9;
+}
+
+.single_testimonial_area p {
+    font-family: abel;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #272525;
+    margin-bottom: 30px;
+}
+
+.single_testimonial_area h3 {
+    line-height: 30px;
+    color: #272525;
+    font-family: abel;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.single_testimonial_area img {
+    margin-bottom: 40px;
+}
+
+.carousel-indicators {
+    bottom: -30px!important;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    /* background-color: #000\9; */
+    background-color: #f9f9f9!important;
+    border: 1px solid #272525!important;
+    border-radius: 10px;
+}
+
+
+/*========================================TESTIMONIAL CSS=============================================================*/
+
+
+/*========================================08.CONTACT CSS=============================================================*/
+
+.form_controle {
+    width: 100%;
+    margin-bottom: 21px;
+    height: 41px;
+    padding: 0px 0px 12px 10px;
+    border: none;
+    font-family: "Abel";
+    color: #000;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid;
+}
+
+.form_controle {
+    width: 100%;
+    margin-bottom: 21px;
+    height: 41px;
+    padding: 0px 0px 12px 10px;
+    border: none;
+    font-family: "Abel";
+    color: #000;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #d3d1d1;
+}
+
+.form_controle_message {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 125px;
+    padding: 0px 0px 92px 10px;
+    border: none;
+    font-family: "Abel";
+    color: #000;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #d3d1d1;
+}
+
+*:focus {
+    outline: none;
+}
+
+.form_controle_btn {
+    margin-left: 72%;
+    margin-top: 48px;
+    border: none;
+    padding: 5px 60px 5px 60px;
+    font-family: "Abel";
+    font-size: 18px;
+    background-color: #44B272;
+    color: #fff;
+    border: 1px solid;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.form_controle_btn:hover {
+    background-color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+/*========================================CONTACT CSS=============================================================*/
+
+
+/*========================================09.FOTTER CSS=============================================================*/
+
+.footter_area {
+    background-color: #000;
+    padding: 60px;
+}
+
+.social p {
+    font-family: abel;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-left: 29px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    display: inline-block;
+    background-color: #44B272;
+    margin: 0px 4px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+.social ul li a img {
+    padding: 3px;
+}
+
+.social ul li:hover {
+    display: inline-block;
+    background-color: #E74C3C;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+/*========================================FOTTER CSS=============================================================*/

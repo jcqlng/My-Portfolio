@@ -1,0 +1,427 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Template Name: TIDE
+Version:    1.0
+Descriptions:TIDE is a Personal Portfolio Template
+Author: Fahmid Ahmed Chowdhury
+
+-------------------------------------------------------------------*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .mobileMenu_icon {
+        display: none;
+    }
+    .mobilemenu {
+        display: none;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mobileMenu_icon {
+        display: none;
+    }
+    .mobilemenu {
+        display: none;
+    }
+    .about_pic {
+        text-align: center;
+    }
+    .about_social {
+        margin-left: -44px;
+        text-align: center;
+    }
+    .about_content h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 25px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .page_content p {
+        font-family: abel;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        color: #272525;
+        text-align: center;
+    }
+    .menu li {
+        display: inline-block;
+        padding: 0px 13px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .menu {
+        margin-top: -48px;
+    }
+    .is-sticky .menu li {
+        display: inline-block;
+        padding: 0px 13px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .is-sticky .menu {
+        margin-top: -38px;
+    }
+    .is-sticky .logo_menu_area {
+        padding: 14px 0px 20px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .single_service_area.text-center {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+    .logo a h1 {
+        color: #fff;
+        font-family: oswald;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .menu {
+        display: none
+    }
+    .mobileMenu_icon {
+        position: relative;
+        float: right;
+        width: 35px;
+        height: 17px;
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        top: -45px;
+    }
+    .logo_menu_area {
+        padding: 30px 0px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .is-sticky .logo_menu_area {
+        padding: 20px 0px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .mobilemenu {
+        opacity: 0.7px;
+        background-color: #000;
+    }
+    .mobilemenu ul {
+        padding: 30px 20px 20px 20px;
+    }
+    .mobilemenu ul li {
+        float: bottom;
+        list-style: none;
+        border-bottom: 1px solid #d3d1d1;
+        padding: 5px 0px 5px 0px;
+    }
+    .mobilemenu ul li:last-child {
+        border: none;
+    }
+    .mobilemenu ul li a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .form_controle_btn {
+        margin-left: 0%;
+    }
+    .about_content h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 25px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .page_content p {
+        font-family: abel;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        color: #272525;
+        text-align: center;
+    }
+    .about_pic {
+        text-align: center;
+    }
+    .about_social {
+        margin-left: -44px;
+        text-align: center;
+    }
+    .single_service_area.text-center {
+        margin-bottom: 30px;
+    }
+    .social ul li {
+        display: inline-block;
+        background-color: #44B272;
+        margin: 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+        border-radius: 8px;
+    }
+    .social img {
+        width: 26px;
+    }
+    .homepage_content_text h2 {
+        font-family: oswald;
+        color: #fff;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .homepage_content_text p {
+        font-family: abel;
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .homepage_aro img {
+        width: 46px;
+    }
+    .page_title h2 {
+        font-family: oswald;
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+        color: #272525;
+    }
+    .page_content p {
+        font-family: abel;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+        color: #272525;
+        text-align: center;
+    }
+    .page_area {
+        padding: 50px 0px 50px 0px;
+    }
+    .single_service_area h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 20px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .about_content h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 20px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sevice_icon i {
+        color: #44B272;
+        font-size: 41px;
+        margin-bottom: 19px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+	.home_page_bg {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .logo a h1 {
+        color: #fff;
+        font-family: oswald;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .menu {
+        display: none
+    }
+    .mobileMenu_icon {
+        position: relative;
+        float: right;
+        width: 35px;
+        height: 17px;
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        top: -45px;
+    }
+    .logo_menu_area {
+        padding: 30px 0px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .is-sticky .logo_menu_area {
+        padding: 20px 0px 0px 0px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .mobilemenu {
+        opacity: 0.7px;
+        background-color: #000;
+    }
+    .mobilemenu ul {
+        padding: 30px 20px 20px 20px;
+    }
+    .mobilemenu ul li {
+        float: bottom;
+        list-style: none;
+        border-bottom: 1px solid #d3d1d1;
+        padding: 5px 0px 5px 0px;
+    }
+    .mobilemenu ul li:last-child {
+        border: none;
+    }
+    .mobilemenu ul li a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .form_controle_btn {
+        margin-left: 0%;
+    }
+    .about_content h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 25px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .page_content p {
+        font-family: abel;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        color: #272525;
+        text-align: center;
+    }
+    .about_pic {
+        text-align: center;
+    }
+    .about_social {
+        margin-left: -44px;
+        text-align: center;
+    }
+    .single_service_area.text-center {
+        margin-bottom: 30px;
+    }
+    .homepage_content_text h2 {
+        font-family: oswald;
+        color: #fff;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .homepage_content_text p {
+        font-family: abel;
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .homepage_aro img {
+        width: 46px;
+    }
+    .page_title h2 {
+        font-family: oswald;
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+        color: #272525;
+    }
+    .page_content p {
+        font-family: abel;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+        color: #272525;
+        text-align: center;
+    }
+    .page_area {
+        padding: 50px 0px 50px 0px;
+    }
+    .single_service_area h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 20px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    .about_content h2 {
+        font-family: abel;
+        font-weight: normal;
+        font-size: 20px;
+        color: #44B272;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sevice_icon i {
+        color: #44B272;
+        font-size: 41px;
+        margin-bottom: 19px;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+	.home_page_bg {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+}
