@@ -120,7 +120,7 @@ body.preloader_active {
 }
 
 .color {
-    color: #44B272
+    color: blue
 }
 
 .page_area {
@@ -295,7 +295,7 @@ body.preloader_active {
     font-family: abel;
     font-weight: normal;
     font-size: 25px;
-    color: #44B272;
+    color: blue;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -305,7 +305,7 @@ body.preloader_active {
 }
 
 .about_download {
-    background-color: #44B272;
+    background-color: blue;
     font-family: oswald;
     text-align: center;
 }
@@ -342,7 +342,7 @@ body.preloader_active {
 
 .about_social ul li {
     display: inline-block;
-    background-color: #44B272;
+    background-color: blue;
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
@@ -373,7 +373,7 @@ body.preloader_active {
     font-family: abel;
     font-weight: normal;
     font-size: 25px;
-    color: #44B272;
+    color: blue;
     letter-spacing: 1px;
     text-transform: uppercase;
     -webkit-transition: all 1s ease;
@@ -387,7 +387,7 @@ body.preloader_active {
 }
 
 .sevice_icon i {
-    color: #44B272;
+    color: blue;
     font-size: 60px;
     margin-bottom: 15px;
     -webkit-transition: all 1s ease;
@@ -574,7 +574,7 @@ body.preloader_active {
     padding: 5px 60px 5px 60px;
     font-family: "Abel";
     font-size: 18px;
-    background-color: #44B272;
+    background-color: blue;
     color: #fff;
     border: 1px solid;
     -webkit-transition: all 1s ease;
@@ -613,7 +613,7 @@ body.preloader_active {
 
 .social ul li {
     display: inline-block;
-    background-color: #44B272;
+    background-color: blue;
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
