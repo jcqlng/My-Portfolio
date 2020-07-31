@@ -41,7 +41,7 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 25px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-align: center;
@@ -151,7 +151,7 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 25px;
-        color: #44B272;
+        color:blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-align: center;
@@ -177,7 +177,7 @@ Author: Fahmid Ahmed Chowdhury
     }
     .social ul li {
         display: inline-block;
-        background-color: #44B272;
+        background-color: blue;
         margin: 0px 0px;
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
@@ -224,7 +224,7 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 20px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         -webkit-transition: all 1s ease;
@@ -234,14 +234,14 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 20px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-align: center;
         margin-top: 20px;
     }
     .sevice_icon i {
-        color: #44B272;
+        color: blue;
         font-size: 41px;
         margin-bottom: 19px;
         -webkit-transition: all 1s ease;
@@ -328,7 +328,7 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 25px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-align: center;
@@ -390,7 +390,7 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 20px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         -webkit-transition: all 1s ease;
@@ -400,14 +400,14 @@ Author: Fahmid Ahmed Chowdhury
         font-family: abel;
         font-weight: normal;
         font-size: 20px;
-        color: #44B272;
+        color: blue;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-align: center;
         margin-top: 20px;
     }
     .sevice_icon i {
-        color: #44B272;
+        color: blue;
         font-size: 41px;
         margin-bottom: 19px;
         -webkit-transition: all 1s ease;
